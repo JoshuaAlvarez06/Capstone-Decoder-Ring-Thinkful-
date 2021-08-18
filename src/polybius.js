@@ -14,9 +14,9 @@ const polybiusModule = (function () {
               result.push(poly[index]);
             }
           }) 
-     } else {
-       result.push(character);
-     }
+      } else {
+        result.push(character);
+      }  
     })
     return result.join("")
   } else {
